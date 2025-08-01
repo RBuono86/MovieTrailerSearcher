@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  background: #f2f2f2;
+  padding: 2rem;
+}
+
+.movie-search {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input {
+  padding: 0.5rem;
+  width: 60%;
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.movie-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.movie-card h4 {
+  margin: 0.5rem 0 0.25rem;
+}
